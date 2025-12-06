@@ -17,7 +17,8 @@ Real-time auto-capture and manual capture options
 
 This low-cost system provides 24×7 automated monitoring, reducing the need for manual supervision.
 
-✨ Features
+# ✨ Features
+
 🐄 Animal Detection
 
 Uses YOLOv8n to identify cows, dogs, cats, and rabbits.
@@ -52,7 +53,8 @@ Live updates of last auto-captured frame
 
 Add new known faces
 
-🛠️ Technologies Used
+# 🛠️ Technologies Used
+
 Component	Purpose
 ESP32-CAM	Image capture
 Flask	Backend + Web UI
@@ -61,7 +63,7 @@ YOLOv8	Animal detection
 Arduino UNO	Ultrasonic sensor + Servo gate
 Serial Communication	Python ↔ Arduino
 
-📸 System Workflow
+# 📸 System Workflow
 
 Ultrasonic sensor detects movement
 
