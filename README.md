@@ -105,10 +105,6 @@ Step 5: Open the Web Dashboard
     Visit:
         http://localhost:5000/
 
-# 📷 Sample Output
-
-<img src="images/output.jpg" width="500">
-
 
 # 📜 License
 
