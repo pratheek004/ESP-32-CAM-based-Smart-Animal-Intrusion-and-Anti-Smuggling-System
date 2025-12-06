@@ -94,7 +94,7 @@ Step 2: Upload the ESP32-CAM Code
 
 Step 3: Upload the Arduino Code
     Flash the following file to your Arduino UNO:
-        FINALprojectphase.ino
+        FINALphaseproject.ino
 
 
 Step 4: Run the Python Server
