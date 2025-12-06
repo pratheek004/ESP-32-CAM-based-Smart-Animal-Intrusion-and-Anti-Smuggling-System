@@ -1,4 +1,4 @@
-ESP32-CAM Based Smart Animal Intrusion & Anti-Smuggling System
+#ESP32-CAM Based Smart Animal Intrusion & Anti-Smuggling System
 🔐 AI-Powered Farm Security | 🐄 Animal Detection | 👤 Face Recognition | 🌐 IoT Web Dashboard | 🚪 Automated Gate Control
 📌 Overview
 
