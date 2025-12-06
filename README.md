@@ -82,22 +82,26 @@ Known face → gate automatically unlocks
 Unknown → marked as intruder
 
 # 🚀 How to Run the Project
-Step 1: Install dependencies
-pip install -r requirements.txt
 
-Step 2: Upload the ESP32-CAM code
+Step 1: Install Dependencies
+    pip install -r requirements.txt
 
-Flash Webserver.ino to your module.
 
-Step 3: Upload the Arduino code
+Step 2: Upload the ESP32-CAM Code
+    Flash the following file to your ESP32-CAM module:
+        Webserver.ino
 
-Flash Finalprojectphase2.ino to Arduino UNO.
 
-Step 4: Run the Python server
-python app.py
+Step 3: Upload the Arduino Code
+    Flash the following file to your Arduino UNO:
+        arduino_gate_control.ino
+
+
+Step 4: Run the Python Server
+    python flask_server.py
+
 
 Step 5: Open the Web Dashboard
+    Visit:
+        http://localhost:5000/
 
-Visit:
-
-http://localhost:5000/
