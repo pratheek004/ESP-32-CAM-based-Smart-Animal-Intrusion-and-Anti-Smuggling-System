@@ -3,8 +3,8 @@
 #include <WebServer.h>
 
 // ============= WiFi Configuration =============
-const char* ssid = "shreenidhi_Ext";          
-const char* password = "Pratheek"; 
+const char* ssid = "Your WiFi";          
+const char* password = "******"; 
 
 // ============= Camera Pin Setup =============
 #define PWDN_GPIO_NUM     32
