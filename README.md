@@ -94,11 +94,11 @@ Step 2: Upload the ESP32-CAM Code
 
 Step 3: Upload the Arduino Code
     Flash the following file to your Arduino UNO:
-        arduino_gate_control.ino
+        FINALprojectphase.ino
 
 
 Step 4: Run the Python Server
-    python flask_server.py
+    python app.py
 
 
 Step 5: Open the Web Dashboard
