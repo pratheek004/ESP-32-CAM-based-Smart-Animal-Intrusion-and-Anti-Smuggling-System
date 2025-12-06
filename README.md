@@ -105,3 +105,16 @@ Step 5: Open the Web Dashboard
     Visit:
         http://localhost:5000/
 
+# 📷 Sample Output
+
+<img src="images/output.png" width="500">
+
+
+# 📜 License
+
+This project is licensed under GPL-3.0 (Open Source).
+
+# 🤝 Contributors
+
+Pratheek P Acharya
+Shoaib Sayed
