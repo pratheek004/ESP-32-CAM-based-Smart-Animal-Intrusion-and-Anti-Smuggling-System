@@ -1,0 +1,2 @@
+# ESP-32-CAM-based-Smart-Animal-Intrusion-and-Anti-Smuggling-System
+A smart farm security system using ESP32-CAM, ultrasonic sensing, YOLOv8 and DeepFace to detect animals and identify intruders. It auto-captures images, alerts the farmer and allows remote gate control through a web dashboard. Designed as a low-cost automated solution to prevent animal theft and unauthorized entry in livestock sheds.
