@@ -1,6 +1,6 @@
 # ESP32-CAM Based Smart Animal Intrusion & Anti-Smuggling System
-🔐 AI-Powered Farm Security | 🐄 Animal Detection | 👤 Face Recognition | 🌐 IoT Web Dashboard | 🚪 Automated Gate Control
-📌 Overview
+# 🔐 AI-Powered Farm Security | 🐄 Animal Detection | 👤 Face Recognition | 🌐 IoT Web Dashboard | 🚪 Automated Gate Control
+# 📌 Overview
 
 This project presents an AI-enabled smart security system designed for farms and livestock sheds.
 It integrates ESP32-CAM, Ultrasonic sensors, Arduino-controlled servo gate locking, and a Flask-based webserver with Machine Learning detection for:
