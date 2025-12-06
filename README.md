@@ -41,6 +41,7 @@ ESP32-CAM-Smart-Farm-Security/
 └── README.md
 
 
+
 # ✨ Features
 
 🐄 Animal Detection
