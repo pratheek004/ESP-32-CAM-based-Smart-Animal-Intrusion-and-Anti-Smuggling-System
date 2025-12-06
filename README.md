@@ -107,7 +107,7 @@ Step 5: Open the Web Dashboard
 
 # 📷 Sample Output
 
-<img src="images/output.png.jpg" width="500">
+<img src="images/output.jpg" width="500">
 
 
 # 📜 License
