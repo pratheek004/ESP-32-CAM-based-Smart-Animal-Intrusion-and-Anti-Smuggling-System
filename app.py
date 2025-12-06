@@ -10,7 +10,7 @@ import threading
 app = Flask(__name__)
 
 KNOWN_FACES_FILE = "known_faces.json"
-ESP32_URL = "http://192.168.0.101"   # Change this to your ESP32-CAM IP
+ESP32_URL = "http://192.168.0.xxx"   # Change this to your ESP32-CAM IP
 known_faces = {}
 
 # Load YOLOv8 model for animal detection
