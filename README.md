@@ -56,12 +56,18 @@ Add new known faces
 # 🛠️ Technologies Used
 
 Component	Purpose
-ESP32-CAM	Image capture
-Flask	Backend + Web UI
-DeepFace	Face recognition
-YOLOv8	Animal detection
-Arduino UNO	Ultrasonic sensor + Servo gate
-Serial Communication	Python ↔ Arduino
+
+ESP32-CAM	              Image capture
+
+Flask	                  Backend + Web UI
+
+DeepFace           	    Face recognition
+
+YOLOv8	                Animal detection
+
+Arduino UNO	            Ultrasonic sensor + Servo gate
+
+Serial Communication	  Python ↔ Arduino
 
 # 📸 System Workflow
 
