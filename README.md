@@ -17,6 +17,30 @@ Real-time auto-capture and manual capture options
 
 This low-cost system provides 24×7 automated monitoring, reducing the need for manual supervision.
 
+# 📁 Repository Structure
+
+ESP32-CAM-Smart-Farm-Security/
+│
+├── src/
+│   ├── flask_server.py          # Main ML + Web backend
+│   ├── esp32_cam_code.ino       # ESP32-CAM program
+│   ├── arduino_gate_control.ino # Arduino servo + ultrasonic code
+│
+├── models/
+│   ├── yolov8n.pt               # YOLO model for animal detection
+│
+├── images/
+│   ├── flowchart.png
+│   ├── system_architecture.png
+│   ├── sample_output.jpg
+│
+├── known_faces/
+│   └── known_faces.json         # Stored embeddings
+│
+├── requirements.txt
+└── README.md
+
+
 # ✨ Features
 
 🐄 Animal Detection
