@@ -1,2 +1,18 @@
-# ESP-32-CAM-based-Smart-Animal-Intrusion-and-Anti-Smuggling-System
-A smart farm security system using ESP32-CAM, ultrasonic sensing, YOLOv8 and DeepFace to detect animals and identify intruders. It auto-captures images, alerts the farmer and allows remote gate control through a web dashboard. Designed as a low-cost automated solution to prevent animal theft and unauthorized entry in livestock sheds.
+ESP32-CAM Based Smart Animal Intrusion & Anti-Smuggling System
+🔐 AI-Powered Farm Security | 🐄 Animal Detection | 👤 Face Recognition | 🌐 IoT Web Dashboard | 🚪 Automated Gate Control
+📌 Overview
+
+This project presents an AI-enabled smart security system designed for farms and livestock sheds.
+It integrates ESP32-CAM, Ultrasonic sensors, Arduino-controlled servo gate locking, and a Flask-based webserver with Machine Learning detection for:
+
+Human intruder detection
+
+Known vs unknown face recognition
+
+Animal classification (Cow, Dog, Cat, Rabbit)
+
+Web-controlled gate locking/unlocking
+
+Real-time auto-capture and manual capture options
+
+This low-cost system provides 24×7 automated monitoring, reducing the need for manual supervision.
