@@ -17,30 +17,6 @@ Real-time auto-capture and manual capture options
 
 This low-cost system provides 24×7 automated monitoring, reducing the need for manual supervision.
 
-# 📁 Repository Structure
-
-ESP32-CAM-Smart-Farm-Security/
-│
-├── src/
-│   ├── flask_server.py          # Main ML + Web backend
-│   ├── esp32_cam_code.ino       # ESP32-CAM program
-│   ├── arduino_gate_control.ino # Arduino servo + ultrasonic code
-│
-├── models/
-│   ├── yolov8n.pt               # YOLO model for animal detection
-│
-├── images/
-│   ├── flowchart.png
-│   ├── system_architecture.png
-│   ├── sample_output.jpg
-│
-├── known_faces/
-│   └── known_faces.json         # Stored embeddings
-│
-├── requirements.txt
-└── README.md
-
-
 
 # ✨ Features
 
@@ -104,3 +80,24 @@ Result displayed on the dashboard
 Known face → gate automatically unlocks
 
 Unknown → marked as intruder
+
+# 🚀 How to Run the Project
+Step 1: Install dependencies
+pip install -r requirements.txt
+
+Step 2: Upload the ESP32-CAM code
+
+Flash Webserver.ino to your module.
+
+Step 3: Upload the Arduino code
+
+Flash Finalprojectphase2.ino to Arduino UNO.
+
+Step 4: Run the Python server
+python app.py
+
+Step 5: Open the Web Dashboard
+
+Visit:
+
+http://localhost:5000/
