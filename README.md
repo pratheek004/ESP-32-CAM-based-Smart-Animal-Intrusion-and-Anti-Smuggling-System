@@ -86,19 +86,32 @@ Unknown → marked as intruder
 Step 1: Install Dependencies
     pip install -r requirements.txt
 
+| Library        | Purpose                                      |
+|----------------|----------------------------------------------|
+| flask          | Backend server + Web dashboard               |
+| openCV         | Image decoding, reading, and preprocessing   |
+| numPy          | Array operations and ML preprocessing        |
+| yolov8         | Animal detection (Ultralytics package)       |
+| deepFace       | Face recognition & face embedding matching   |
+| requests       | Handling image requests from ESP32-CAM       |
+| Pillow (PIL)   | Additional image handling support            |
+| PySerial       | Communication between Python ↔ Arduino       |
+| TensorFlow     | Backend support required by DeepFace models  |
+| Torch          | YOLOv8 backend (auto-installed with YOLO)    |
+
 
 Step 2: Upload the ESP32-CAM Code
     Flash the following file to your ESP32-CAM module:
-        Webserver.ino
+        ESP32CAM.ino
 
 
 Step 3: Upload the Arduino Code
     Flash the following file to your Arduino UNO:
-        FINALphaseproject.ino
+        Ultrasonic.ino
 
 
 Step 4: Run the Python Server
-    python app.py
+    python gym.py
 
 
 Step 5: Open the Web Dashboard
@@ -112,5 +125,6 @@ This project is licensed under GPL-3.0 (Open Source).
 
 # 🤝 Contributors
 
-Pratheek P Acharya
-Shoaib Sayed
+1. Pratheek P Acharya  
+2. Shoaib Sayed
+
