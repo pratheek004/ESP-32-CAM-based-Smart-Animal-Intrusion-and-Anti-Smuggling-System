@@ -1,4 +1,9 @@
-# Smart Animal Intrusion Detection & Anti-Smuggling System
+# Smart Animal Intrusion Detection & Anti-Smuggling System 
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+![Flask](https://img.shields.io/badge/flask-2.3-black)
+![YOLOv8](https://img.shields.io/badge/YOLO-v8-orange)
+![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-green)
+
 # 🔐 AI-Powered Farm Security | 🐄 Animal Detection | 👤 Face Recognition | 🌐 IoT Web Dashboard | 🚪 Automated Gate Control
 # 📌 Overview
 
